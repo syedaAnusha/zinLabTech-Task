@@ -1,1 +1,1 @@
-export { WrapperContainerComponent } from "./WrapperContainerComponent";
+export { WrapperContainer } from "./WrapperContainer";
