@@ -7,7 +7,7 @@ import SearchIconSvg from "../hooks/SearchIconSvg.jsx";
 export const Header = () => {
   return (
     <React.Fragment>
-      <header className="xsm:w-[100%] xsm:ml-2 sm:w-[100%] md:w-[100vw] flex flex-1 justify-between items-start flex-row py-.2 border-2 border-slate-950 ">
+      <header className="xsm:w-[100%] xsm:px-2 sm:w-[100%] md:w-[100vw] flex flex-1 justify-between items-start flex-row  box-border fixed left-1 right-1 ">
         <section className="flex flex-row justify-center items-center">
           <MenuBarSvg height="45" width="45" />
           <Logo />
