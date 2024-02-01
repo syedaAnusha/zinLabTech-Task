@@ -1,9 +1,11 @@
 import React from "react";
+import "tailwindcss/tailwind.css";
 
 const MenuBarSvg = (props) => {
   return (
     <React.Fragment>
       <svg
+        className="md:w-[1900%] md:h-[1900%]"
         xmlns="http://www.w3.org/2000/svg"
         height={props.height}
         viewBox="0 -960 960 960"

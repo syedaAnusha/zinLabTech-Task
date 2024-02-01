@@ -1,9 +1,11 @@
 import React from "react";
+import "tailwindcss/tailwind.css";
 
 const SearchIconSvg = (props) => {
   return (
     <React.Fragment>
       <svg
+        className="md:w-[2000%] md:h-[2000%] md:mt-1.5"
         xmlns="http://www.w3.org/2000/svg"
         height={props.height}
         viewBox="0 -960 960 960"
