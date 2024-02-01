@@ -11,6 +11,7 @@ module.exports = {
     extend: {
       //* Customize screen sizes for mobile first approach.
       screens: {
+        xsm: "300px",
         sm: "640px",
         md: "768px",
         lg: "1024px",
